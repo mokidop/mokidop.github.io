@@ -1,0 +1,71 @@
+<head>
+    <title>mObywatel</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/notification.css">
+    <link rel=" stylesheet" href="assets/main.css">
+    <link rel="icon" type="image/x-icon" href="images/otM5jOA.png">
+    <link rel="apple-touch-icon" href="images/otM5jOA.png">
+    <link rel="shortcut icon" href="images/otM5jOA.png">
+    <meta name="format-detection" content="telephone=no">
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="theme-color" content="#121212">
+</head>
+
+<body>
+    <div class="top_grid">
+        <div class="action_grid">
+            <img src="qr_files/back_blue.png" class="back_img">
+            <p onclick="sendTo('home')" class="back_text">Dokumenty</p>
+        </div>
+        <p class="title_text">Powiadomienia</p>
+    </div>
+
+    <div class="bottom_bar">
+        <div class="bottom_bar_grid">
+            <div class="bottom_element_grid" send="home">
+                <div class="bottom_element_image home_open home"></div>
+                <p class="bottom_element_text open">Dokumenty</p>
+            </div>
+            <div class="bottom_element_grid" send="services">
+                <div class="bottom_element_image services"></div>
+                <p class="bottom_element_text">Usługi</p>
+            </div>
+            <div class="bottom_element_grid" send="qr">
+                <div class="bottom_element_image qr"></div>
+                <p class="bottom_element_text">Kod QR</p>
+            </div>
+            <div class="bottom_element_grid" send="more">
+                <div class="bottom_element_image more"></div>
+                <p class="bottom_element_text">Więcej</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottomtesktern" style="height: 8px; margin-bottom: 120px;">
+
+    </div>
+
+    <img class="natata" src="./images/notification.png" alt="">
+
+    <div class="center">
+        <!-- <img src="more_files/bell_blank.png" class="bell">
+        <div class="field">
+            <label>Tu zobaczysz swoje <br>powiadomienia</label>
+        </div> -->
+    </div>
+
+    <div class="bottom">
+        <p class="refresh" id="refresh">Odśwież</p>
+    </div>
+
+    <script src="assets/bar.js"></script>
+    <script src="assets/card.js?v=1.0"></script>
+    <script src="assets/manifest.js"></script>
+</body>
